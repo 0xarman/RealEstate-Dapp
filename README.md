@@ -1,5 +1,8 @@
 # Real Estate NFT DApp
 
+## Escrow Architecture : 
+![image](https://github.com/0xarman/RealEstate-Dapp/assets/61632241/a3cc84fc-0415-4a23-96b1-5b4480c9f293)
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)

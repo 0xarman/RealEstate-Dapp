@@ -6,5 +6,10 @@ const tokens = (n) => {
 }
 
 describe('Escrow', () => {
-    it('Returns N')
+    it('saves the addresses', async () => {
+        const RealEstate = await ethers.getContractFactory('RealEstate');
+        let realEstate = await RealEstate.deploy();
+        
+        console.log('rEAddrss:  ', realEstate.address);
+    })
 })
